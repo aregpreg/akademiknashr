@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Roboto' sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -36,11 +36,11 @@ body {
 	transition: opacity 0.4s ease;
 }
 
-btn:hover {
+.btn:hover {
 	opacity: 0.8;
 }
 
-btn:active {
+.btn:active {
 	opacity: 0.6;
 }
 
@@ -96,4 +96,50 @@ btn:active {
 
 .site-nav-link-active {
 	border-bottom: 3px solid #ff7500;
+}
+
+.hero {
+	background-color: #252420;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.hero-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero-info {
+	max-width: 387px;
+	width: 100%;
+}
+
+.hero-line {
+	display: inline-block;
+	width: 80px;
+	height: 3px;
+	background-color: #ff7500;
+}
+
+.hero-title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+
+.hero-text {
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+
+.hero-img-wrapper img {
+	height: 510px;
+	width: 510px;
+	object-fit: cover;
+	border-radius: 8px;
 }
